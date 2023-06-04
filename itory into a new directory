@@ -1,0 +1,132 @@
+[33mcommit b5316437abdf08651fae03c86a03954eab5877f9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: erik33 <erikxzc@gmail.com>
+Date:   Sun Jun 4 15:13:08 2023 +0800
+
+    updetan refresh file backendnya
+
+[1mdiff --git a/ls b/ls[m
+[1mnew file mode 100644[m
+[1mindex 0000000..80bc4a8[m
+[1m--- /dev/null[m
+[1m+++ b/ls[m
+[36m@@ -0,0 +1,102 @@[m
+[32m+[m[32m[33mcommit c39ad8d19ae86b9a0eab0d875562c9cb37a5dc63[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+[32m+[m[32mAuthor: erik33 <erikxzc@gmail.com>[m
+[32m+[m[32mDate:   Sun Jun 4 14:55:35 2023 +0800[m
+[32m+[m
+[32m+[m[32m    updatan semua folder[m
+[32m+[m
+[32m+[m[32m[1mdiff --git a/.gitignore b/.gitignore[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..24476c5[m[m
+[32m+[m[32m[1m--- /dev/null[m[m
+[32m+[m[32m[1m+++ b/.gitignore[m[m
+[32m+[m[32m[36m@@ -0,0 +1,44 @@[m[m
+[32m+[m[32m[32m+[m[32m# Miscellaneous[m[m
+[32m+[m[32m[32m+[m[32m*.class[m[m
+[32m+[m[32m[32m+[m[32m*.log[m[m
+[32m+[m[32m[32m+[m[32m*.pyc[m[m
+[32m+[m[32m[32m+[m[32m*.swp[m[m
+[32m+[m[32m[32m+[m[32m.DS_Store[m[m
+[32m+[m[32m[32m+[m[32m.atom/[m[m
+[32m+[m[32m[32m+[m[32m.buildlog/[m[m
+[32m+[m[32m[32m+[m[32m.history[m[m
+[32m+[m[32m[32m+[m[32m.svn/[m[m
+[32m+[m[32m[32m+[m[32mmigrate_working_dir/[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m# IntelliJ related[m[m
+[32m+[m[32m[32m+[m[32m*.iml[m[m
+[32m+[m[32m[32m+[m[32m*.ipr[m[m
+[32m+[m[32m[32m+[m[32m*.iws[m[m
+[32m+[m[32m[32m+[m[32m.idea/[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m# The .vscode folder contains launch configuration and tasks you configure in[m[m
+[32m+[m[32m[32m+[m[32m# VS Code which you may wish to be included in version control, so this line[m[m
+[32m+[m[32m[32m+[m[32m# is commented out by default.[m[m
+[32m+[m[32m[32m+[m[32m#.vscode/[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m# Flutter/Dart/Pub related[m[m
+[32m+[m[32m[32m+[m[32m**/doc/api/[m[m
+[32m+[m[32m[32m+[m[32m**/ios/Flutter/.last_build_id[m[m
+[32m+[m[32m[32m+[m[32m.dart_tool/[m[m
+[32m+[m[32m[32m+[m[32m.flutter-plugins[m[m
+[32m+[m[32m[32m+[m[32m.flutter-plugins-dependencies[m[m
+[32m+[m[32m[32m+[m[32m.packages[m[m
+[32m+[m[32m[32m+[m[32m.pub-cache/[m[m
+[32m+[m[32m[32m+[m[32m.pub/[m[m
+[32m+[m[32m[32m+[m[32m/build/[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m# Symbolication related[m[m
+[32m+[m[32m[32m+[m[32mapp.*.symbols[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m# Obfuscation related[m[m
+[32m+[m[32m[32m+[m[32mapp.*.map.json[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m# Android Studio will place build artifacts here[m[m
+[32m+[m[32m[32m+[m[32m/android/app/debug[m[m
+[32m+[m[32m[32m+[m[32m/android/app/profile[m[m
+[32m+[m[32m[32m+[m[32m/android/app/release[m[m
+[32m+[m[32m[1mdiff --git a/.metadata b/.metadata[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..f25b3d4[m[m
+[32m+[m[32m[1m--- /dev/null[m[m
+[32m+[m[32m[1m+++ b/.metadata[m[m
+[32m+[m[32m[36m@@ -0,0 +1,45 @@[m[m
+[32m+[m[32m[32m+[m[32m# This file tracks properties of this Flutter project.[m[m
+[32m+[m[32m[32m+[m[32m# Used by Flutter tool to assess capabilities and perform upgrades etc.[m[m
+[32m+[m[32m[32m+[m[32m#[m[m
+[32m+[m[32m[32m+[m[32m# This file should be version controlled.[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32mversion:[m[m
+[32m+[m[32m[32m+[m[32m  revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m  channel: stable[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32mproject_type: app[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m# Tracks metadata for the flutter migrate command[m[m
+[32m+[m[32m[32m+[m[32mmigration:[m[m
+[32m+[m[32m[32m+[m[32m  platforms:[m[m
+[32m+[m[32m[32m+[m[32m    - platform: root[m[m
+[32m+[m[32m[32m+[m[32m      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m    - platform: android[m[m
+[32m+[m[32m[32m+[m[32m      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m    - platform: ios[m[m
+[32m+[m[32m[32m+[m[32m      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m    - platform: linux[m[m
+[32m+[m[32m[32m+[m[32m      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m    - platform: macos[m[m
+[32m+[m[32m[32m+[m[32m      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m    - platform: web[m[m
+[32m+[m[32m[32m+[m[32m      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m    - platform: windows[m[m
+[32m+[m[32m[32m+[m[32m      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[32m      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m  # User provided section[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m  # List of Local paths (relative to this file) that should be[m[m
+[32m+[m[32m[32m+[m[32m  # ign[m
+\ No newline at end of file[m
+[33mcommit b5316437abdf08651fae03c86a03954eab5877f9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: erik33 <erikxzc@gmail.com>
+Date:   Sun Jun 4 15:13:08 2023 +0800
+
+    updetan refresh file backendnya
+
+[33mcommit c39ad8d19ae86b9a0eab0d875562c9cb37a5dc63[m
+Author: erik33 <erikxzc@gmail.com>
+Date:   Sun Jun 4 14:55:35 2023 +0800
+
+    updatan semua folder
+
+[33mcommit 6e8b09a8bc3bc07433a7115f94ea4bb2af164193[m
+Author: erik33 <erikxzc@gmail.com>
+Date:   Sun Jun 4 14:51:43 2023 +0800
+
+    latihan tampilkan data
